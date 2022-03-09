@@ -1,0 +1,47 @@
+.notWorking {
+    text-transform: uppercase;
+    color: red;
+}
+body {
+    width: 95%;
+    margin: 1%;
+}
+h2 > a {
+    text-decoration: none;
+}
+.muscles > ul {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.muscles > ul > li {
+    margin-left: 2rem;
+} 
+
+.muscles > ul > li > ul {
+    list-style-type: none;
+}
+.muscles img {
+    width: 50px;
+    min-width: 20px;
+}
+.hide {
+    display: none;
+}
+#mainImg {
+    border: 1px cornflowerblue solid;
+    
+}
+#mainImg > img{
+    width: 300px;
+    max-width: 300px;
+}
+
+.grid-container,#main-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* @media screen and (max-width: 550px){
+    .grid-container {
+        grid-template-columns: 1fr;
+    }   
+} */
